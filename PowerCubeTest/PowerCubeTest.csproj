@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-PowerCubeTest-1b0b6c9e-1e0a-404b-9bf1-b6336772bc13</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Smart.PowerCUBE.Api">
+      <HintPath>..\dll\Smart.PowerCUBE.Api.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

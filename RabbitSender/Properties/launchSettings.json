@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RabbitSender": {
+      "commandName": "Project",
+      "commandLineArgs": "123131214123"
+    }
+  }
+}
